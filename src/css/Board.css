@@ -1,0 +1,14 @@
+.board-container {
+  flex: 1;
+  overflow: hidden;
+  background-color: #f4f5f8;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 100%;
+}

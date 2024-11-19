@@ -1,0 +1,83 @@
+.column {
+  min-width: 300px;
+  max-width: 350px;
+  background-color: #f4f5f8;
+  height: fit-content;
+}
+  
+  /* .column-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 16px;
+  }
+  
+  .column-header h2 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .ticket-count {
+    background-color: #e0e0e0;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  
+  .column-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  } */
+
+  /* Responsive styles */
+@media screen and (max-width: 768px) {
+  .board {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .column {
+    min-width: 280px;
+    max-width: 100%;
+  }
+
+  .dropdown {
+    min-width: 200px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 8px 12px;
+  }
+
+  .display-button {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .column {
+    min-width: 260px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 13px;
+  }
+
+  .dropdown-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .dropdown-item select {
+    width: 100%;
+  }
+}
